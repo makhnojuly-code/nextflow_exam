@@ -1,0 +1,24 @@
+# --- Nextflow temporary and cache directories ---
+work/
+results/
+.nextflow*
+*.log
+
+# --- Singularity and container images ---
+*.img
+*.sif
+.singularity/
+singularity/
+singularity_cache/
+singularity_containers/
+
+# --- Temporary or backup files ---
+*.tmp
+*.bak
+*.swp
+
+# --- System and editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
